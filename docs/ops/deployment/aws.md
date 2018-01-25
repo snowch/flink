@@ -126,6 +126,12 @@ s3.access-key: your-access-key
 s3.secret-key: your-secret-key
 ```
 
+If you are using a non-AWS S3 endpoint (such as [IBM's Cloud Object Storage](https://www.ibm.com/cloud/object-storage)), you can configure the S3 endpoint in Flink's  `flink-conf.yaml`: 
+
+```
+s3.endpoint: your-endpoint-hostname
+```
+
 {% top %}
 
 ### Hadoop-provided S3 file systems - manual setup
